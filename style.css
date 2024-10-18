@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.counter {
+    list-style: none;
+    display: flex;
+    margin: 3rem;
+    gap: 32rem;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: aquamarine;
+    width: 100%;
+    height: 3rem;
+    font-style: bold;
+}
+
+li {
+    color: blue;
+}
+
+.count {
+    font-size: 6rem;
+    color: azure;
+}
+
+.btn button {
+
+    margin: 0.5rem;
+    width: max-content;
+    font-size: 3rem;
+    color: beige;
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(222, 222, 233);
+    cursor: pointer;
+
+}
+
+button:nth-child(1) {
+    width: 2rem;
+
+}
+
+button:nth-child(1):hover {
+    background:whitesmoke;
+    color: blue;
+
+}
+
+button:nth-child(2):hover {
+    background: whitesmoke;
+    color: blue;
+
+}
+.reset-btn{
+    text-decoration-color: beige;
+    background-color: aqua;
+    width: 6rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: red;  
+
+}
+
+
+.square_shape {
+    width: 400px;
+    height: 350px;
+    background-image: url('/OIP.jpeg');
+    background-color: chartreuse;
+    z-index: -1;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+}
+.selfchange{
+    height: 2rem;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: aqua;
+    margin: 16px 8px;
+}
+#step{
+    color: beige;
+}
